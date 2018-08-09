@@ -6,9 +6,9 @@ let open;
 let mainList = {
 	budget,
 	shopName,
-	shopGoods,
-	employers,
-	open
+	shopGoods: [],
+	employers: {},
+	open: false
 }
 shopGoods.push(prompt("Какой тип товаров будем продавать?"));
 shopGoods.push(prompt("Какой тип товаров будем продавать?"));
