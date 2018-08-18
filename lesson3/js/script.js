@@ -18,7 +18,7 @@ let mainList = {
 	discount: false
 }
 
-/*function start() {
+function start() {
 	budget = prompt("Ваш бюджет?");
 
 	while (isNaN(budget) || budget == '' || budget == null) {
@@ -57,7 +57,7 @@ function workTime(time) {
 			};
 }
 workTime(18);
-*/
+
 
 
 
@@ -81,7 +81,7 @@ console.log(employers);
 function discountPrice(price) {
 	let disc = confirm("У вас есть дисконтная карта?");
 	if (disc == true) {
-		price = (price / 100) * 80;
+		price = price * 0.8;
 		console.log(price);
 	} else {
 		console.log(price);
